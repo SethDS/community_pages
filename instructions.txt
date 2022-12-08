@@ -1,0 +1,41 @@
+Overview:
+This goal of this project is to explore your comfort level with both application architecture, component design and layout. Please read these instructions carefully before you start.
+
+Archive Contents:
+instructions.txt - This file
+sample-data.txt  - Sample Data
+gennev-community-pages/ - Create React App starter kit/repo
+
+Task:
+Given the sample data and assets provided in the zip file, create a single page application that follows the layout in the pdf provided. While the sample PDF provides 2 views (List and Grid) you will only need to implement 1. You may choose whichever one you prefer, either the list view OR the grid view.
+
+You are creating a sample community page that allows anyone to contribute their testimonials to a database. When the app loads, it should load the already existing testimonials from the sample data. Your app will include a form that will allow for a new testimonial to be submitted and added to the existing ones being shown on the page. 
+
+The application page should have two panels as shown in the layout. On the left (Form Panel), there should be a form that allows a user to submit a new entry to the database that already contains the data provided. 
+
+The right side (Display Panel) should display the already provided data in a view matching the sample layout, using components you've created. Similar to how many operating system file browsers work. 
+
+
+View Details:
+If you choose the Grid View, it should show data in components with user headshots on top and the provided data - age, location and comments in the box below. 
+
+The List view should only show the user provided image/headshot and the testimonial comments on the right.  
+
+The imageUrls provided in the data are links to real images and should be included as part of your solution.
+
+
+Considerations:
+* Your app should prevent a user from submitting a comment or testimonial twice. Your app does not need to implement login/sessions to enable this constraint. Consider how you may implement that restriction in a "lightweight manner" and add it to your app.
+
+* Add a searchbox above the right side of the layout (Grid or List view) that allow for the testimonials to be searchable. For example,if I search for Dana Moore (one of the names in the sample data), the bottom views should only show her testimonial component. 
+
+
+Constraints:
+
+- THE VISUAL COMPONENTS SHOULD USE NO THIRD PARTY CODE - You must be the original author of the UI source code, it should not be from a publicly available or open source component library. 
+- You may use React (preferred) but Vue.js is also acceptable.
+_ Typescript is preferred, but plain Javascript will work just as well.
+
+The Create React App starter kit provided is optional. If you wish to setup your own starter kit/bundler/etc, feel free.
+
+Upload your completed assignment into a public GitHub repo and submit the link when completed.

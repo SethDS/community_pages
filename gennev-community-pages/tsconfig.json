@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "target": "ES2020",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "isolatedModules": true,
+      "resolveJsonModule": true
+    },
+    "lib": ["es2020"],
+    "include": [
+        "src"
+      ]
+  }
